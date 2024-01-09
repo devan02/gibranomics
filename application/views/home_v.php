@@ -1,58 +1,76 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
 
-<div class="container">
-  <div class="row">
-	<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-	  <h1>GIBRANOMICS</h1>
-	  <h2>
-		Pembangunan Ekonomi berbasis Manusia dan Budaya
-	  </h2>
-	  <div class="d-flex justify-content-center justify-content-lg-start">
-		<a href="#contact" class="btn-get-started scrollto">MULAI</a>
-		<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-	  </div>
+	<div class="container">
+		<div id="background-wrap">
+			<div class="x1">
+				<div class="cloud"></div>
+			</div>
+
+			<div class="x2">
+				<div class="cloud"></div>
+			</div>
+
+			<div class="x3">
+				<div class="cloud"></div>
+			</div>
+
+			<div class="x4">
+				<div class="cloud"></div>
+			</div>
+
+			<div class="x5">
+				<div class="cloud"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 d-flex flex-column align-items-center order-1 order-lg-2 hero-img gap-3" data-aos="zoom-in" data-aos-delay="200">
+				<img src="<?=base_url();?>assets/img/log-gibranomics.png" class="img-fluid animated w-75" alt="">
+				<img src="<?=base_url();?>assets/img/tulisan-pembangunan ekonomiberbasisbudaya.png" class="img-fluid animated" alt="">
+				<div class="d-flex justify-content-center justify-content-lg-start pt-5">
+					<a href="#contact" class="start-btn scrollto">
+						MULAI
+					</a>
+					<a href="#contact" class="start-btn scrollto">
+						<?=date('Y');?>
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-	  <img src="<?=base_url();?>assets/img/hero-img.png" class="img-fluid animated" alt="">
-	</div>
-  </div>
-</div>
 
 </section><!-- End Hero -->
 
 <main id="main">
 	<section id="clients" class="clients section-bg">
 		<div class="container">
-	
-		<div class="row" data-aos="zoom-in">
-	
-			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-			<img src="<?=base_url();?>assets/img/clients/client-1.png" class="img-fluid" alt="">
+			<div class="d-flex flex-row align-items-center justify-content-center gap-5" data-aos="zoom-in">
+				<div class="d-flex">
+					<a href="" class="scrollto">
+						<h1>RUMAH</h1>
+					</a>
+				</div>
+				<div class="d-flex">
+					<a href="#about" class="scrollto">
+						<h1>TENTANG KAMI</h1>
+					</a>
+				</div>
+				<div class="d-flex">
+					<a href="" class="scrollto">
+						<h1>ARTIKEL</h1>
+					</a>
+				</div>
+				<div class="d-flex">
+					<a href="#team" class="scrollto">
+						<h1>CORE TEAM</h1>
+					</a>
+				</div>
+				<div class="d-flex">
+					<a href="#contact" class="scrollto">
+						<h1>HUBUNGI KAMI</h1>
+					</a>
+				</div>
 			</div>
-	
-			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-			<img src="<?=base_url();?>assets/img/clients/client-2.png" class="img-fluid" alt="">
-			</div>
-	
-			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-			<img src="<?=base_url();?>assets/img/clients/client-3.png" class="img-fluid" alt="">
-			</div>
-	
-			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-			<img src="<?=base_url();?>assets/img/clients/client-4.png" class="img-fluid" alt="">
-			</div>
-	
-			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-			<img src="<?=base_url();?>assets/img/clients/client-5.png" class="img-fluid" alt="">
-			</div>
-	
-			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-			<img src="<?=base_url();?>assets/img/clients/client-6.png" class="img-fluid" alt="">
-			</div>
-	
-		</div>
-	
 		</div>
 	</section><!-- End Cliens Section -->
 	

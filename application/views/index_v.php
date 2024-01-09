@@ -21,8 +21,8 @@
 	<meta property="og:image:height" content="630" />
 
   <!-- Favicons -->
-  <link href="<?=base_url();?>assets/img/favicon.png" rel="icon">
-  <link href="<?=base_url();?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?=base_url();?>assets/img/gibransaja.png" rel="icon">
+  <link href="<?=base_url();?>assets/img/gibransaja.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -38,6 +38,7 @@
 
   <!-- Template Main CSS File -->
   <link href="<?=base_url();?>assets/css/style.css" rel="stylesheet">
+  <link href="<?=base_url();?>assets/css/cloud.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha
@@ -58,12 +59,12 @@
 
 		<nav id="navbar" class="navbar">
 			<ul>
-				<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-				<li><a class="nav-link scrollto" href="#about">About</a></li>
-				<li><a class="nav-link scrollto" href="#services">Services</a></li>
-				<li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
-				<li><a class="nav-link scrollto" href="#team">Core Team</a></li>
-				<li><a class="getstarted scrollto" href="#contact">Get Started</a></li>
+				<li><a class="nav-link scrollto active" href="#hero">RUMAH</a></li>
+				<li><a class="nav-link scrollto" href="#about">TENTANG KAMI</a></li>
+				<li><a class="nav-link scrollto" href="#services">ARTIKEL</a></li>
+				<li><a class="nav-link   scrollto" href="#team">CORE TEAM</a></li>
+				<li><a class="nav-link scrollto" href="#contact">HUBUNGI KAMI</a></li>
+				<!-- <li><a class="getstarted scrollto" href="#contact">Get Started</a></li> -->
 			</ul>
 			<i class="bi bi-list mobile-nav-toggle"></i>
 		</nav>
