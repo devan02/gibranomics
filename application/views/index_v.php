@@ -49,27 +49,33 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
-
+    <div class="container d-flex flex-row">
       <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="<?=base_url();?>assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Core Team</a></li>
-          <li><a class="getstarted scrollto" href="#contact">Get Started</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+		<nav id="navbar" class="navbar">
+			<ul>
+				<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+				<li><a class="nav-link scrollto" href="#about">About</a></li>
+				<li><a class="nav-link scrollto" href="#services">Services</a></li>
+				<li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
+				<li><a class="nav-link scrollto" href="#team">Core Team</a></li>
+				<li><a class="getstarted scrollto" href="#contact">Get Started</a></li>
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		</nav>
+		<!-- .navbar -->
+		<div class="d-flex ms-auto">
+			<a class="getsound d-none" id="btn_play" href="javascript:;" onclick="backsound(false);">
+				<i id="icon-sound" class="bi bi-play-circle"></i>
+			</a>
+			<a class="getsound" id="btn_stop" href="javascript:;" onclick="backsound(true);">
+				<i id="icon-sound" class="bi bi-stop-circle"></i>
+			</a>
+		</div>
     </div>
   </header><!-- End Header -->
 
@@ -78,7 +84,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -90,14 +96,14 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
+            <h3>GIBRANOMICS</h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
@@ -164,9 +170,13 @@
   <script src="<?=base_url();?>assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="<?=base_url();?>assets/vendor/php-email-form/validate.js"></script>
 
+  <script>
+	var base_url = "<?=base_url();?>";
+  </script>
+	<script src="<?=base_url();?>assets/js/function.js"></script>
+
   <!-- Template Main JS File -->
   <script src="<?=base_url();?>assets/js/main.js"></script>
-
 </body>
 
 </html>

@@ -388,6 +388,15 @@ h6 {
   visibility: visible !important;
 }
 
+.getsound{
+	color: #fff;
+	padding: 10px 0px 10px 0px;
+}
+
+.getsound:hover,
+.getsound:focus:hover {
+  color: #007cc0;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
