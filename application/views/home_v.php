@@ -1,1068 +1,633 @@
-<!-- Banner Section Start -->
-<div id="sc-banner" class="sc_banner_v3 sc_banner_v4 banner-bg position-relative">
-    <div class="container">
-        <div class="banner-content v3_banner_content">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="sc_banner_v3_left mt-10">
-                        <h2 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">Boost YOUR 🚀Crypto Projects</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">The next generation gaming ecosystem for IGOs and NFT market Secure crypto solutions by blockchain technology</p>
-                        <div class="gamfi_v2_hero_btns wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                            <a href="project.html" class="readon white-btn hover-shape view-project-btn">
-                                <span class="btn-text">VIEW Projects</span>
-                                <span class="hover-shape1"></span>
-                                <span class="hover-shape2"></span>
-                                <span class="hover-shape3"></span>
-                            </a>
-                            <a class="readon black-shape apply-project-btn" href="igo-apply.html">
-                                <span class="btn-text">Apply Project</span>
-                                <span class="hover-shape1"></span>
-                                <span class="hover-shape2"></span>
-                                <span class="hover-shape3"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="sc_banner_v3_right sc_banner_v4_right mt-70">
-                        <div class="animetion_avater">
-                            <img src="assets/images/icons/banner-4.png" alt="img" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+
+<div class="container">
+  <div class="row">
+	<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+	  <h1>GIBRANOMICS</h1>
+	  <h2>
+		Pembangunan Ekonomi berbasis Manusia dan Budaya
+	  </h2>
+	  <div class="d-flex justify-content-center justify-content-lg-start">
+		<a href="#contact" class="btn-get-started scrollto">MULAI</a>
+		<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+	  </div>
+	</div>
+	<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+	  <img src="<?=base_url();?>assets/img/hero-img.png" class="img-fluid animated" alt="">
+	</div>
+  </div>
 </div>
-<!-- Banner Section End -->
 
-<!-- home_v4_partners_sect-Start -->
-<div class="home_v4_partners_sect">
-    <div class="gamfi-partner-section home_v4_partners_content">
-        <div class="container home_v4_partners_content_container">
-            <div class="gamfi-partner-inner wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                <div class="partner-image">
-                    <a href="#"><img src="assets/images/partner/partner-image.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image2.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image3.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image4.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image5.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image6.png" alt="Partner-Image" /></a>
-                </div>
-                <div class="partner-image">
-                    <a href="#"><img src="assets/images/partner/partner-image.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image2.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image3.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image4.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image5.png" alt="Partner-Image" /></a>
-                    <a href="#"><img src="assets/images/partner/partner-image6.png" alt="Partner-Image" /></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <span class="red-border-gradient"></span>
-    <span class="green-border-gradient"></span>
-</div>
-<!-- home_v4_partners_sect-End -->
+</section><!-- End Hero -->
 
-<!-- HomeV4-Live_Project-Start -->
-<div class="home_v4_live_project_sect">
-    <div class="container">
-        <div class="project_clasic_2_sect">
-            <div class="sec-heading mb-60">
-                <div class="sub-inner mb-15">
-                    <span class="sub-title">ONGOING</span>
-                    <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-                </div>
-                <div class="live_project_headings">
-                    <h2 class="mb-50">LIVE PROJECTS</h2>
-                    <div class="video__icon">
-                        <div class="circle--outer"></div>
-                        <div class="circle--inner"></div>
-                    </div>
-                </div>
-            </div>
+<main id="main">
+	<section id="clients" class="clients section-bg">
+		<div class="container">
+	
+		<div class="row" data-aos="zoom-in">
+	
+			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+			<img src="<?=base_url();?>assets/img/clients/client-1.png" class="img-fluid" alt="">
+			</div>
+	
+			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+			<img src="<?=base_url();?>assets/img/clients/client-2.png" class="img-fluid" alt="">
+			</div>
+	
+			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+			<img src="<?=base_url();?>assets/img/clients/client-3.png" class="img-fluid" alt="">
+			</div>
+	
+			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+			<img src="<?=base_url();?>assets/img/clients/client-4.png" class="img-fluid" alt="">
+			</div>
+	
+			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+			<img src="<?=base_url();?>assets/img/clients/client-5.png" class="img-fluid" alt="">
+			</div>
+	
+			<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+			<img src="<?=base_url();?>assets/img/clients/client-6.png" class="img-fluid" alt="">
+			</div>
+	
+		</div>
+	
+		</div>
+	</section><!-- End Cliens Section -->
+	
+	<!-- ======= Contact Section ======= -->
+	<section id="contact" class="contact">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>Contact</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		</div>
+	
+		<div class="row">
+	
+			<div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+				<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+					<div class="row">
+						<div class="form-group col-md-4">
+							<label for="name">Your Name</label>
+							<input type="text" name="name" class="form-control" id="name" required>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="name">Your Email</label>
+							<input type="email" class="form-control" name="email" id="email" required>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="name">Your Phone</label>
+							<input type="text" class="form-control" name="phone" id="phone" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="name">Subject</label>
+						<input type="text" class="form-control" name="subject" id="subject" required>
+					</div>
+					<div class="form-group">
+						<label for="name">Message</label>
+						<textarea class="form-control" name="message" rows="10" required></textarea>
+					</div>
+					<div class="my-3">
+						<div class="loading">Loading</div>
+						<div class="error-message"></div>
+						<div class="sent-message">Your message has been sent. Thank you!</div>
+					</div>
+					<div class="text-center"><button type="submit">Send Message</button></div>
+				</form>
+			</div>
+	
+		</div>
+	
+		</div>
+	</section><!-- End Contact Section -->
 
-
-            <div class="project_clasic_2_container home_v3_project_clasic_2_container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="project_clasic_2_container_left">
-                            <div class="project_clasic_2_container_left_content">
-                                <div class="project_clasic_2_container_left_img">
-                                    <img src="assets/images/project/ProjectClasicContainer3.png" alt="img" class="img-fluid" />
-                                </div>
-                                <div class="project_clasic_2_timer">
-                                    <div class="price-counter">
-                                        <div class="timer timer_1">
-                                            <ul>
-                                                <li class="days">03<span>D</span></li>
-                                                <li class="hours">01<span>H</span></li>
-                                                <li class="minutes">13<span>M</span></li>
-                                                <li class="seconds">56<span>S</span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="project_clasic_2_left_content_img">
-                                    <img src="assets/images/project/privius-image11.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="project_clasic_2_container_right_sect v3_project_clasic_2_container_right_sect">
-                            <div class="project_clasic_2_container_right_headings">
-                                <h2><a href="project-details.html">Ninja Class World</a></h2>
-                                <p>price (NOO) = 0.50 BUSD</p>
-                                <span><img src="assets/images/project/icon-2.png" alt="chain" class="img-fluid" /></span>
-                            </div>
-                            <div class="total_rised_progress_sect">
-                                <div class="total_rised_progress_headings">
-                                    <h3>Total Raised : <span>$89,000.50 / $100,000</span></h3>
-                                    <p><span class="counter">89</span>%</p>
-                                </div>
-                                <div class="progress-line">
-                                    <div class="progress-done bg-theme" data-percent="89"></div>
-                                </div>
-                                <div class="access_allocation_participants_sect">
-                                    <ul>
-                                        <li><span>Access</span>
-                                            <p>Public Access</p>
-                                        </li>
-                                        <li><span>Allocation</span>
-                                            <p>500 BUSD Max</p>
-                                        </li>
-                                        <li><span>Participants</span>
-                                            <p>5555 Max</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="project_clasic_2_container_social_sect">
-                                    <ul>
-                                        <li><a href="#"><i class="icon-telegram"></i></a></li>
-                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                        <li><a href="#"><i class="icon-discord"></i></a></li>
-                                        <li><a href="#"><i class="icon-medium"></i></a></li>
-                                        <li><a href="#"><i class="icon-world"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project_clasic_2_container home_v3_project_clasic_2_container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="project_clasic_2_container_left">
-                            <div class="project_clasic_2_container_left_content">
-                                <div class="project_clasic_2_container_left_img">
-                                    <img src="assets/images/project/ProjectClasicContainer4.png" alt="img" class="img-fluid" />
-                                </div>
-                                <div class="project_clasic_2_timer">
-                                    <div class="price-counter">
-                                        <div class="timer timer_2">
-                                            <ul>
-                                                <li class="days">05<span>D</span></li>
-                                                <li class="hours">02<span>H</span></li>
-                                                <li class="minutes">26<span>M</span></li>
-                                                <li class="seconds">45<span>S</span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="project_clasic_2_left_content_img">
-                                    <img src="assets/images/project/project-image4.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6">
-                        <div class="project_clasic_2_container_right_sect v3_project_clasic_2_container_right_sect">
-                            <div class="project_clasic_2_container_right_headings">
-                                <h2><a href="project-details.html">Pixels Run</a></h2>
-                                <p>price (PRC) = 0.22 BUSD</p>
-                                <span><img src="assets/images/project/icon-4.png" alt="chain" class="img-fluid" /></span>
-                            </div>
-                            <div class="total_rised_progress_sect">
-                                <div class="total_rised_progress_headings">
-                                    <h3>Total Raised : <span>$30,999.70 / $100,000</span></h3>
-                                    <p><span class="counter">32</span>%</p>
-                                </div>
-                                <div class="progress-line">
-                                    <div class="progress-done bg-theme" data-percent="32"></div>
-                                </div>
-                                <div class="access_allocation_participants_sect">
-                                    <ul>
-                                        <li><span>Access</span>
-                                            <p>Private</p>
-                                        </li>
-                                        <li><span>Allocation</span>
-                                            <p>500 BUSD Max</p>
-                                        </li>
-                                        <li><span>Participants</span>
-                                            <p>5555 Max</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="project_clasic_2_container_social_sect">
-                                    <ul>
-                                        <li><a href="#"><i class="icon-telegram"></i></a></li>
-                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                        <li><a href="#"><i class="icon-discord"></i></a></li>
-                                        <li><a href="#"><i class="icon-medium"></i></a></li>
-                                        <li><a href="#"><i class="icon-world"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-<!-- HomeV4-Live_Project-End -->
-
-<!-- homeV4_participate Start -->
-<div class="home_V4_participate_sect">
-    <div class="container">
-        <div class="pt-130 md-pt-80 heading-area align-items-center d-flex justify-content-between wow fadeInUp mb-30" data-wow-delay="0.2s" data-wow-duration="0.4s">
-            <div class="sec-heading">
-                <div class="sub-inner mb-15">
-                    <span class="sub-title">3 easy steps</span>
-                    <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-                </div>
-                <h2 class="title">How to Participate</h2>
-            </div>
-            <div class="gamfi-btn-area">
-                <ul>
-                    <li>
-                        <a class="view-more black-shape" href="kyc-process.html">
-                            <span class="btn-text"> Verify KYC </span>
-                            <i class="icon-arrow_right"></i>
-                            <span class="hover-shape1"></span>
-                            <span class="hover-shape2"></span>
-                            <span class="hover-shape3"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="participate-area row">
-            <div class="col-lg-4 col-md-6">
-                <div class="participate-item d-flex wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                    <div class="number-image">
-                        <img src="assets/images/icons/participate-image.png" alt="Participate-Image" />
-                    </div>
-                    <div class="participate-info">
-                        <h4 class="mb-10">Submit KYC</h4>
-                        <p class="description">
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="participate-item d-flex wow fadeInUp mr-30" data-wow-delay="0.3s" data-wow-duration="0.5s">
-                    <div class="number-image">
-                        <img src="assets/images/icons/participate-image2.png" alt="Participate-Image" />
-                    </div>
-                    <div class="participate-info">
-                        <h4 class="mb-10">Verify Wallet</h4>
-                        <p class="description">
-                            Popular belief Ipsum is not simply random text. It has roots in a piece of classical
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="participate-item d-flex wow fadeInUp mr-20" data-wow-delay="0.4s" data-wow-duration="0.6s">
-                    <div class="number-image">
-                        <img src="assets/images/icons/participate-image3.png" alt="Participate-Image" />
-                    </div>
-                    <div class="participate-info">
-                        <h4 class="mb-10">Start Staking</h4>
-                        <p class="description">
-                            Belief norem Isum is not simply random text. It has roots in a piece of classical
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- homeV4_participate End -->
-
-<!-- V4 Our Project Start -->
-<div class="home_v4_our_project_sect">
-
-</div>
-<!-- Project Section Start -->
-<div class="gamfi-project-section home_v4_our_project_sect main-project-area pb-0">
-    <div class="container">
-        <div class="sec-inner align-items-center d-flex justify-content-between mb-30">
-            <div class="sec-heading">
-                <div class="sub-inner mb-15">
-                    <span class="sub-title">EXPLORE</span>
-                    <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-                </div>
-                <h2 class="title">OUR PROJECTS</h2>
-            </div>
-            <div class="gamfi-btn-area project_v2_tab_btns">
-                <ul>
-                    <li class="project_v2_tab_links m-0" onclick="openProject(event, 'ProectV2_OnGoing')" id="OpenProject">
-                        <button class="readon white-btn black-shape m-0">
-                            <span class="btn-text">UPCOMING</span>
-                            <span class="hover-shape1"></span>
-                            <span class="hover-shape2"></span>
-                            <span class="hover-shape3"></span>
-                        </button>
-                    </li>
-
-                    <li class="project_v2_tab_links" onclick="openProject(event, 'ProectV2_ENDED')">
-                        <button class="readon white-btn black-shape m-0">
-                            <span class="btn-text">COMPLETE</span>
-                            <span class="hover-shape1"></span>
-                            <span class="hover-shape2"></span>
-                            <span class="hover-shape3"></span>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="project_v2_tab_content_sect">
-            <div id="ProectV2_OnGoing" class="project_v2_tab_content animate_opacity">
-                <div class="gamfi-previous-section v4_our_project_previous_sect project_clasic_previous_section pb-40 md-pb-50">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-12 p-0">
-                                <div class="previous-mainmenu mb-15">
-                                    <ul class="menu-list">
-                                        <li class="list1 list1_custom">Project name</li>
-                                        <li class="list2 list2_custom">Chain</li>
-                                        <li class="list3 list3_custom">START IN</li>
-                                        <li class="list4 list4_custom">TARget Raise</li>
-                                        <li class="custom_list5 list5_custom">Progress</li>
-                                    </ul>
-                                </div>
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image11.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">KyberDyne</h4>
-                                                <div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>9 Hours LEFT</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>100,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">0</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image4.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">KingdomX</h4>
-                                                <div class="dsc">PRICE (CTC) = 0.45 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image4.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>3 DAYS LEFT</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>100,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">0</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image5.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Cyber City</h4>
-                                                <div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image5.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>3 DAYS LEFT</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>500,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">0</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image12.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Child Class</h4>
-                                                <div class="dsc">price (CCC) = 0.04 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>5 DAYS LEFT</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>150,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">0</span>%</p>
-                                            </div>
-                                        </div>
-
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image3.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Galaxy War</h4>
-                                                <div class="dsc">PRICE (MTS) = 0.33 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image3.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>2 DAYS LEFT</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span><span>510,000 BUSD</span></span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">0</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image2.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Thetan Arena</h4>
-                                                <div class="dsc">PRICE (FSC) = 0.89 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image2.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>23 days LEFT</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>265,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">0</span>%</p>
-                                            </div>
-                                        </div>
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div id="ProectV2_ENDED" class="project_v2_tab_content animate_opacity">
-                <div class="gamfi-previous-section v4_our_project_previous_sect project_clasic_previous_section pb-140 md-pb-50">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-12 p-0">
-                                <div class="previous-mainmenu mb-15">
-                                    <ul class="menu-list">
-                                        <li class="list1 list1_custom">Project name</li>
-                                        <li class="list2 list2_custom">Chain</li>
-                                        <li class="list3 list3_custom">ENDS IN</li>
-                                        <li class="list4 list4_custom">TARget Raise</li>
-                                        <li class="custom_list5 list5_custom">Progress</li>
-                                    </ul>
-                                </div>
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image11.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">KyberDyne</h4>
-                                                <div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>5 Hours ago</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>100,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">82</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image3.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Galaxy War</h4>
-                                                <div class="dsc">PRICE (MTS) = 0.33 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image3.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>3 Day Ago</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span><span>510,000 BUSD</span></span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">100</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image4.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">KingdomX</h4>
-                                                <div class="dsc">PRICE (CTC) = 0.45 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image4.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>5 Day Ago</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>100,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">36</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image2.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Thetan Arena</h4>
-                                                <div class="dsc">PRICE (FSC) = 0.89 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image2.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>1 days ago</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>265,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">92</span>%</p>
-                                            </div>
-                                        </div>
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image5.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Cyber City</h4>
-                                                <div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image5.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>5 Day Ago</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>500,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">65</span>%</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 p-0">
-                                <a href="project-details.html">
-                                    <div class="previous-item hover-shape-border hover-shape-inner">
-                                        <div class="previous-gaming list1_custom">
-                                            <div class="previous-image">
-                                                <img src="assets/images/project/privius-image12.png" alt="Previous-Image" />
-                                            </div>
-                                            <div class="previous-price">
-                                                <h4 class="mb-10">Child Class</h4>
-                                                <div class="dsc">price (CCC) = 0.04 BUSD</div>
-                                            </div>
-                                        </div>
-                                        <div class="previous-chaining list2_custom">
-                                            <img src="assets/images/project/previous-image.png" alt="Chain-Image" />
-                                        </div>
-                                        <div class="previous-EndsIn list3_custom">
-                                            <span>5 Day Ago</span>
-                                        </div>
-                                        <div class="previous-raise list4_custom">
-                                            <span>150,000 BUSD</span>
-                                        </div>
-                                        <div class="previous_progress list5_custom">
-                                            <div class="project_clasic_custom_progress_sect">
-                                                <div class="progress-line">
-                                                    <div class="progress-done bg-theme" data-percent="0"></div>
-                                                </div>
-                                                <p><span class="counter">93</span>%</p>
-                                            </div>
-                                        </div>
-
-
-                                        <span class="border-shadow shadow-1"></span>
-                                        <span class="border-shadow shadow-2"></span>
-                                        <span class="border-shadow shadow-3"></span>
-                                        <span class="border-shadow shadow-4"></span>
-                                        <span class="hover-shape-bg hover_shape1"></span>
-                                        <span class="hover-shape-bg hover_shape2"></span>
-                                        <span class="hover-shape-bg hover_shape3"></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- V4 Our Project End -->
-
-<!-- Tied Start -->
-<div class="gamfi_tier_v3_sect home_v4_gamfi_tier_v3_sect bg-transparent">
-    <div class="container">
-        <div class="sec-heading mb-60">
-            <div class="sub-inner mb-15">
-                <span class="sub-title">FEATURES</span>
-                <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-            </div>
-            <h2 class="title">Tier System</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="tvl_sect mt-70">
-                    <div class="tvl_headings">
-                        <h2>TVL</h2>
-                        <h3>$150.60 M</h3>
-                        <span><img src="assets/images/icons/crow-front-color.png" alt="icon" class="img-fluid" /></span>
-                    </div>
-                    <div class="tvl_list">
-                        <ul>
-                            <li>Requirement</li>
-                            <li>Public Allocation</li>
-                            <li>Private Allocation</li>
-                            <li>Pool Weight</li>
-                            <li>Social Interaction</li>
-                            <li>Pre-Order</li>
-                            <li class="m-0">Private Group</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="tvl_right_sect">
-                    <div class="row">
-                        <div class="col-md-3 col-6">
-                            <div class="tvl_right_card">
-                                <div class="tvl_right_card_headings tvl_right_card_headings1">
-                                    <span><img src="assets/images/icons/Meteor.png" alt="Meteor" class="img-fluid" /></span>
-                                    <h3>Meteor</h3>
-                                </div>
-                                <div class="tvl_right_card_content">
-                                    <ul>
-                                        <li>500 BUSD</li>
-                                        <li>Lottery</li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li>1.5</li>
-                                        <li><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li class="no-border"><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-6">
-                            <div class="tvl_right_card">
-                                <div class="tvl_right_card_headings tvl_right_card_headings2">
-                                    <span><img src="assets/images/icons/Satellite.png" alt="Meteor" class="img-fluid" /></span>
-                                    <h3>Satellite</h3>
-                                </div>
-                                <div class="tvl_right_card_content">
-                                    <ul>
-                                        <li>1500 BUSD</li>
-                                        <li>Lottery</li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li>5</li>
-                                        <li><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li class="no-border"><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-6">
-                            <div class="tvl_right_card">
-                                <div class="tvl_right_card_headings tvl_right_card_headings3">
-                                    <span><img src="assets/images/icons/Earth.png" alt="Meteor" class="img-fluid" /></span>
-                                    <h3>Earth</h3>
-                                </div>
-                                <div class="tvl_right_card_content">
-                                    <ul>
-                                        <li>7000 BUSD</li>
-                                        <li>Guaranteed</li>
-                                        <li><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li>8.5</li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li class="no-border"><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-6">
-                            <div class="tvl_right_card">
-                                <div class="tvl_right_card_headings tvl_right_card_headings4">
-                                    <span><img src="assets/images/icons/Astronaut.png" alt="Meteor" class="img-fluid" /></span>
-                                    <h3>Astronaut</h3>
-                                </div>
-                                <div class="tvl_right_card_content">
-                                    <ul>
-                                        <li>10,000 BUSD</li>
-                                        <li>Guaranteed</li>
-                                        <li><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li>1.5</li>
-                                        <li><img src="assets/images/icons/X_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                        <li class="no-border"><img src="assets/images/icons/tick_icon.svg" alt="X" class="img-fluid"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-<!-- Tied End -->
-
-<!-- V3 FAQ  Start -->
-<div class="gamfi-team-section home_v4_faq_sect gamfi_faq_sect gamfi_our_mentor_section pt-115 pb-85 md-pt-75 md-pb-42">
-    <div class="container">
-        <div class="sec-heading text-center mb-55">
-            <div class="sub-inner  mb-15">
-                <img class="heading-left-image" src="assets/images/icons/steps2.png" alt="Steps-Image">
-                <span class="ml-10 mr-10 sub-title">QUESTIONS & ANSWERS</span>
-                <img class="heading-right-image" src="assets/images/icons/steps.png" alt="Steps-Image">
-            </div>
-            <h2 class="title">FREQUENTLY ASKED QUESTIONS</h2>
-        </div>
-        <div class="faq_content_sect">
-            <div class="faq_questions">
-                <h2 class="accordion no-border">
-                    What is Gamfi ?
-                    <span>
-                        <img src="assets/images/icons/plus.svg" alt="" class="img-fluid icon-plus" />
-                        <img src="assets/images/icons/munis.svg" alt="" class="Img-fluid icon-minus" />
-                    </span>
-                </h2>
-                <div class="accordion-panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <h2 class="accordion">
-                    How we can buy and invest token ?
-                    <span>
-                        <img src="assets/images/icons/plus.svg" alt="" class="img-fluid icon-plus" />
-                        <img src="assets/images/icons/munis.svg" alt="" class="Img-fluid icon-minus" />
-                    </span>
-                </h2>
-                <div class="accordion-panel">
-                    <p>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.</p>
-                </div>
-
-                <h2 class="accordion">
-                    Why we should choose Gamfi ?
-                    <span>
-                        <img src="assets/images/icons/plus.svg" alt="" class="img-fluid icon-plus" />
-                        <img src="assets/images/icons/munis.svg" alt="" class="Img-fluid icon-minus" />
-                    </span>
-                </h2>
-                <div class="accordion-panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <h2 class="accordion">
-                    Where we can buy and sell Gamfi NFts ?
-                    <span>
-                        <img src="assets/images/icons/plus.svg" alt="" class="img-fluid icon-plus" />
-                        <img src="assets/images/icons/munis.svg" alt="" class="Img-fluid icon-minus" />
-                    </span>
-                </h2>
-                <div class="accordion-panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <h2 class="accordion">
-                    How secure is this token ?
-                    <span>
-                        <img src="assets/images/icons/plus.svg" alt="" class="img-fluid icon-plus" />
-                        <img src="assets/images/icons/munis.svg" alt="" class="Img-fluid icon-minus" />
-                    </span>
-                </h2>
-                <div class="accordion-panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <h2 class="accordion">
-                    What is your contract address ?
-                    <span>
-                        <img src="assets/images/icons/plus.svg" alt="" class="img-fluid icon-plus" />
-                        <img src="assets/images/icons/munis.svg" alt="" class="Img-fluid icon-minus" />
-                    </span>
-                </h2>
-                <div class="accordion-panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-            <h6>Don’t get your answer ? <a href="Get-In-touch.html">Ask Here !</a></h6>
-
-        </div>
-    </div>
-</div>
-<!-- V3 FAQ End -->
+	<!-- ======= About Us Section ======= -->
+	<section id="about" class="about">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>About Us</h2>
+		</div>
+	
+		<div class="row content">
+			<div class="col-lg-6">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</p>
+			<ul>
+				<li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+				<li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+				<li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+			</ul>
+			</div>
+			<div class="col-lg-6 pt-4 pt-lg-0">
+			<p>
+				Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+				culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<a href="#" class="btn-learn-more">Learn More</a>
+			</div>
+		</div>
+	
+		</div>
+	</section><!-- End About Us Section -->
+	
+	<!-- ======= Why Us Section ======= -->
+	<section id="why-us" class="why-us section-bg">
+		<div class="container-fluid" data-aos="fade-up">
+	
+		<div class="row">
+	
+			<div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+	
+			<div class="content">
+				<h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+				</p>
+			</div>
+	
+			<div class="accordion-list">
+				<ul>
+				<li>
+					<a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+					<div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+					<p>
+						Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+					</p>
+					</div>
+				</li>
+	
+				<li>
+					<a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+					<div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+					<p>
+						Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+					</p>
+					</div>
+				</li>
+	
+				<li>
+					<a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+					<div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+					<p>
+						Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+					</p>
+					</div>
+				</li>
+	
+				</ul>
+			</div>
+	
+			</div>
+	
+			<div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("<?=base_url();?>assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+		</div>
+	
+		</div>
+	</section><!-- End Why Us Section -->
+	
+	<!-- ======= Skills Section ======= -->
+	<section id="skills" class="skills">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="row">
+			<div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+			<img src="<?=base_url();?>assets/img/skills.png" class="img-fluid" alt="">
+			</div>
+			<div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+			<h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+			<p class="fst-italic">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua.
+			</p>
+	
+			<div class="skills-content">
+	
+				<div class="progress">
+				<span class="skill">HTML <i class="val">100%</i></span>
+				<div class="progress-bar-wrap">
+					<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				</div>
+	
+				<div class="progress">
+				<span class="skill">CSS <i class="val">90%</i></span>
+				<div class="progress-bar-wrap">
+					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				</div>
+	
+				<div class="progress">
+				<span class="skill">JavaScript <i class="val">75%</i></span>
+				<div class="progress-bar-wrap">
+					<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				</div>
+	
+				<div class="progress">
+				<span class="skill">Photoshop <i class="val">55%</i></span>
+				<div class="progress-bar-wrap">
+					<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				</div>
+	
+			</div>
+	
+			</div>
+		</div>
+	
+		</div>
+	</section><!-- End Skills Section -->
+	
+	<!-- ======= Services Section ======= -->
+	<section id="services" class="services section-bg">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>Services</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		</div>
+	
+		<div class="row">
+			<div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+			<div class="icon-box">
+				<div class="icon"><i class="bx bxl-dribbble"></i></div>
+				<h4><a href="">Lorem Ipsum</a></h4>
+				<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+			</div>
+			</div>
+	
+			<div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+			<div class="icon-box">
+				<div class="icon"><i class="bx bx-file"></i></div>
+				<h4><a href="">Sed ut perspici</a></h4>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+			</div>
+			</div>
+	
+			<div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+			<div class="icon-box">
+				<div class="icon"><i class="bx bx-tachometer"></i></div>
+				<h4><a href="">Magni Dolores</a></h4>
+				<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+			</div>
+			</div>
+	
+			<div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+			<div class="icon-box">
+				<div class="icon"><i class="bx bx-layer"></i></div>
+				<h4><a href="">Nemo Enim</a></h4>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+			</div>
+			</div>
+	
+		</div>
+	
+		</div>
+	</section><!-- End Services Section -->
+	
+	<!-- ======= Cta Section ======= -->
+	<section id="cta" class="cta">
+		<div class="container" data-aos="zoom-in">
+	
+		<div class="row">
+			<div class="col-lg-9 text-center text-lg-start">
+			<h3>Call To Action</h3>
+			<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-lg-3 cta-btn-container text-center">
+			<a class="cta-btn align-middle" href="#">Call To Action</a>
+			</div>
+		</div>
+	
+		</div>
+	</section><!-- End Cta Section -->
+	
+	<!-- ======= Portfolio Section ======= -->
+	<section id="portfolio" class="portfolio">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>Portfolio</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		</div>
+	
+		<ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+			<li data-filter="*" class="filter-active">All</li>
+			<li data-filter=".filter-app">App</li>
+			<li data-filter=".filter-card">Card</li>
+			<li data-filter=".filter-web">Web</li>
+		</ul>
+	
+		<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>App 1</h4>
+				<p>App</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>Web 3</h4>
+				<p>Web</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>App 2</h4>
+				<p>App</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>Card 2</h4>
+				<p>Card</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>Web 2</h4>
+				<p>Web</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>App 3</h4>
+				<p>App</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>Card 1</h4>
+				<p>Card</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>Card 3</h4>
+				<p>Card</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+			<div class="portfolio-img"><img src="<?=base_url();?>assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+			<div class="portfolio-info">
+				<h4>Web 3</h4>
+				<p>Web</p>
+				<a href="<?=base_url();?>assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+				<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+			</div>
+			</div>
+	
+		</div>
+	
+		</div>
+	</section><!-- End Portfolio Section -->
+	
+	<!-- ======= Team Section ======= -->
+	<section id="team" class="team section-bg">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>Core Team</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		</div>
+	
+		<div class="row">
+	
+			<div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+			<div class="member d-flex align-items-start">
+				<div class="pic"><img src="<?=base_url();?>assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+				<div class="member-info">
+				<h4>Walter White</h4>
+				<span>Chief Executive Officer</span>
+				<p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+				<div class="social">
+					<a href=""><i class="ri-twitter-fill"></i></a>
+					<a href=""><i class="ri-facebook-fill"></i></a>
+					<a href=""><i class="ri-instagram-fill"></i></a>
+					<a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+				</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+			<div class="member d-flex align-items-start">
+				<div class="pic"><img src="<?=base_url();?>assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+				<div class="member-info">
+				<h4>Sarah Jhonson</h4>
+				<span>Product Manager</span>
+				<p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+				<div class="social">
+					<a href=""><i class="ri-twitter-fill"></i></a>
+					<a href=""><i class="ri-facebook-fill"></i></a>
+					<a href=""><i class="ri-instagram-fill"></i></a>
+					<a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+				</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+			<div class="member d-flex align-items-start">
+				<div class="pic"><img src="<?=base_url();?>assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+				<div class="member-info">
+				<h4>William Anderson</h4>
+				<span>CTO</span>
+				<p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+				<div class="social">
+					<a href=""><i class="ri-twitter-fill"></i></a>
+					<a href=""><i class="ri-facebook-fill"></i></a>
+					<a href=""><i class="ri-instagram-fill"></i></a>
+					<a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+				</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+			<div class="member d-flex align-items-start">
+				<div class="pic"><img src="<?=base_url();?>assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+				<div class="member-info">
+				<h4>Amanda Jepson</h4>
+				<span>Accountant</span>
+				<p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+				<div class="social">
+					<a href=""><i class="ri-twitter-fill"></i></a>
+					<a href=""><i class="ri-facebook-fill"></i></a>
+					<a href=""><i class="ri-instagram-fill"></i></a>
+					<a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+				</div>
+				</div>
+			</div>
+			</div>
+	
+		</div>
+	
+		</div>
+	</section><!-- End Team Section -->
+	
+	<!-- ======= Pricing Section ======= -->
+	<section id="pricing" class="pricing">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>Pricing</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		</div>
+	
+		<div class="row">
+	
+			<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+			<div class="box">
+				<h3>Free Plan</h3>
+				<h4><sup>$</sup>0<span>per month</span></h4>
+				<ul>
+				<li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+				<li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+				<li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+				<li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
+				<li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+				</ul>
+				<a href="#" class="buy-btn">Get Started</a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+			<div class="box featured">
+				<h3>Business Plan</h3>
+				<h4><sup>$</sup>29<span>per month</span></h4>
+				<ul>
+				<li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+				<li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+				<li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+				<li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+				<li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+				</ul>
+				<a href="#" class="buy-btn">Get Started</a>
+			</div>
+			</div>
+	
+			<div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+			<div class="box">
+				<h3>Developer Plan</h3>
+				<h4><sup>$</sup>49<span>per month</span></h4>
+				<ul>
+				<li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+				<li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+				<li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+				<li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+				<li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+				</ul>
+				<a href="#" class="buy-btn">Get Started</a>
+			</div>
+			</div>
+	
+		</div>
+	
+		</div>
+	</section><!-- End Pricing Section -->
+	
+	<!-- ======= Frequently Asked Questions Section ======= -->
+	<section id="faq" class="faq section-bg">
+		<div class="container" data-aos="fade-up">
+	
+		<div class="section-title">
+			<h2>Frequently Asked Questions</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		</div>
+	
+		<div class="faq-list">
+			<ul>
+			<li data-aos="fade-up" data-aos-delay="100">
+				<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+				<div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+				<p>
+					Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+				</p>
+				</div>
+			</li>
+	
+			<li data-aos="fade-up" data-aos-delay="200">
+				<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+				<div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+				<p>
+					Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+				</p>
+				</div>
+			</li>
+	
+			<li data-aos="fade-up" data-aos-delay="300">
+				<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+				<div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+				<p>
+					Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+				</p>
+				</div>
+			</li>
+	
+			<li data-aos="fade-up" data-aos-delay="400">
+				<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+				<div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+				<p>
+					Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+				</p>
+				</div>
+			</li>
+	
+			<li data-aos="fade-up" data-aos-delay="500">
+				<i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+				<div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+				<p>
+					Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+				</p>
+				</div>
+			</li>
+	
+			</ul>
+		</div>
+	
+		</div>
+	</section><!-- End Frequently Asked Questions Section -->
+</main><!-- End #main -->
+<!-- ======= Clients Section ======= -->

@@ -1,428 +1,258 @@
-/** 
-*
-* -----------------------------------------------------------------------------
-* Template : GamFi - Metaverse Web3 IGO/IDO Token Launchpad Figma Template
-* Author : uigigs
-* Author URI : http://www.uigigs.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
-(function ($) {
-  ("use strict");
-  // sticky menu
-  var header = $(".menu-sticky");
-  var win = $(window);
-  
-  win.on("scroll", function () {
-    var scroll = win.scrollTop();
-    if (scroll < 1) {
-      header.removeClass("sticky");
+/**
+* Template Name: Arsha
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+(function() {
+  "use strict";
+
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
     } else {
-      header.addClass("sticky");
+      return document.querySelector(el)
     }
-    
-    $("section").each(function () {
-      var elementTop = $(this).offset().top - $("#sc-header").outerHeight();
-      if (scroll >= elementTop) {
-        $(this).addClass("loaded");
+  }
+
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
       }
-    });
-  });
-  
-  // wow init
-  new WOW().init();
-  
-  // Counter Up
-  var counter = $('.counter');
-  if(counter.length) {  
-    $('.counter').counterUp({
-      delay: 20,
-      time: 1500
-    });
+    }
   }
-  
-  // magnificPopup init
-  var popupvideos = $(".video-icons");
-  if (popupvideos.length) {
-    $(".video-icons").magnificPopup({
-      disableOn: 10,
-      type: "iframe",
-      mainClass: "mfp-fade",
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false,
-    });
+
+  /**
+   * Easy on scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
   }
-  
-  //window load
-  $(window).on( 'load', function() {
-    $(".loader_first").delay(500).fadeOut(300);
-    $(".circular-spinner").on( 'click', function() {
-      $(".loader_first").fadeOut(300);
+
+  /**
+   * Navbar links active state on scroll
+   */
+  let navbarlinks = select('#navbar .scrollto', true)
+  const navbarlinksActive = () => {
+    let position = window.scrollY + 200
+    navbarlinks.forEach(navbarlink => {
+      if (!navbarlink.hash) return
+      let section = select(navbarlink.hash)
+      if (!section) return
+      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+        navbarlink.classList.add('active')
+      } else {
+        navbarlink.classList.remove('active')
+      }
     })
-  })  
-  
-  /*-------------------------------------
-  OwlCarousel
-  -------------------------------------*/
-  $(".sc-carousel").each(function () {
-    var owlCarousel = $(this),
-    loop = owlCarousel.data("loop"),
-    items = owlCarousel.data("items"),
-    margin = owlCarousel.data("margin"),
-    stagePadding = owlCarousel.data("stage-padding"),
-    autoplay = owlCarousel.data("autoplay"),
-    autoplayTimeout = owlCarousel.data("autoplay-timeout"),
-    smartSpeed = owlCarousel.data("smart-speed"),
-    dots = owlCarousel.data("dots"),
-    nav = owlCarousel.data("nav"),
-    navSpeed = owlCarousel.data("nav-speed"),
-    xsDevice = owlCarousel.data("mobile-device"),
-    xsDeviceNav = owlCarousel.data("mobile-device-nav"),
-    xsDeviceDots = owlCarousel.data("mobile-device-dots"),
-    smDevice = owlCarousel.data("ipad-device"),
-    smDeviceNav = owlCarousel.data("ipad-device-nav"),
-    smDeviceDots = owlCarousel.data("ipad-device-dots"),
-    smDevice2 = owlCarousel.data("ipad-device2"),
-    smDeviceNav2 = owlCarousel.data("ipad-device-nav2"),
-    smDeviceDots2 = owlCarousel.data("ipad-device-dots2"),
-    mdDevice = owlCarousel.data("md-device"),
-    centerMode = owlCarousel.data("center-mode"),
-    HoverPause = owlCarousel.data("hoverpause"),
-    mdDeviceNav = owlCarousel.data("md-device-nav"),
-    mdDeviceDots = owlCarousel.data("md-device-dots");
-    owlCarousel.owlCarousel({
-      loop: loop ? true : false,
-      items: items ? items : 4,
-      lazyLoad: true,
-      center: centerMode ? true : false,
-      autoplayHoverPause: HoverPause ? true : false,
-      margin: margin ? margin : 0,
-      //stagePadding: (stagePadding ? stagePadding : 0),
-      autoplay: autoplay ? true : false,
-      autoplayTimeout: autoplayTimeout ? autoplayTimeout : 1000,
-      smartSpeed: smartSpeed ? smartSpeed : 250,
-      dots: dots ? true : false,
-      nav: nav ? true : false,
-      navText: [
-        "<i class='flaticon flaticon-left-arrow'></i>",
-        "<i class='flaticon flaticon-right-arrow'></i>",
-      ],
-      navSpeed: navSpeed ? true : false,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: xsDevice ? xsDevice : 1,
-          nav: xsDeviceNav ? true : false,
-          dots: xsDeviceDots ? true : false,
-          center: false,
-        },
-        768: {
-          items: smDevice2 ? smDevice2 : 2,
-          nav: smDeviceNav2 ? true : false,
-          dots: smDeviceDots2 ? true : false,
-          center: false,
-        },
-        992: {
-          items: smDevice ? smDevice : 3,
-          nav: smDeviceNav ? true : false,
-          dots: smDeviceDots ? true : false,
-          center: false,
-        },
-        1025: {
-          items: mdDevice ? mdDevice : 4,
-          nav: mdDeviceNav ? true : false,
-          dots: mdDeviceDots ? true : false,
-        },
-      },
-    });
-  });
-  
-  //expeander Class
-  $('.expeander-iteam-area').on("click", function () {
-    $(this).parent().toggleClass('expeand-bottom-content')
-  });
-  
-  
-  //canvas menu
-  var navexpander = $('#nav-expander');
-  if(navexpander.length){
-    $('#nav-expander,  #nav-close2').on('click',function(e){
-      e.preventDefault();
-      $('body').toggleClass('nav-expanded');
-    });
   }
-  
-  /******** Mobile Menu Start ********/
-  $('.mobile-navbar-menu a').each(function(){
-    var href = $(this).attr("href");
-    if(href ="#"){
-      $(this).addClass('hash');
-    }else{
-      $(this).removeClass('hash');
+  window.addEventListener('load', navbarlinksActive)
+  onscroll(document, navbarlinksActive)
+
+  /**
+   * Scrolls to an element with header offset
+   */
+  const scrollto = (el) => {
+    let header = select('#header')
+    let offset = header.offsetHeight
+
+    let elementPos = select(el).offsetTop
+    window.scrollTo({
+      top: elementPos - offset,
+      behavior: 'smooth'
+    })
+  }
+
+  /**
+   * Toggle .header-scrolled class to #header when page is scrolled
+   */
+  let selectHeader = select('#header')
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 100) {
+        selectHeader.classList.add('header-scrolled')
+      } else {
+        selectHeader.classList.remove('header-scrolled')
+      }
+    }
+    window.addEventListener('load', headerScrolled)
+    onscroll(document, headerScrolled)
+  }
+
+  /**
+   * Back to top button
+   */
+  let backtotop = select('.back-to-top')
+  if (backtotop) {
+    const toggleBacktotop = () => {
+      if (window.scrollY > 100) {
+        backtotop.classList.add('active')
+      } else {
+        backtotop.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', toggleBacktotop)
+    onscroll(document, toggleBacktotop)
+  }
+
+  /**
+   * Mobile nav toggle
+   */
+  on('click', '.mobile-nav-toggle', function(e) {
+    select('#navbar').classList.toggle('navbar-mobile')
+    this.classList.toggle('bi-list')
+    this.classList.toggle('bi-x')
+  })
+
+  /**
+   * Mobile nav dropdowns activate
+   */
+  on('click', '.navbar .dropdown > a', function(e) {
+    if (select('#navbar').classList.contains('navbar-mobile')) {
+      e.preventDefault()
+      this.nextElementSibling.classList.toggle('dropdown-active')
+    }
+  }, true)
+
+  /**
+   * Scrool with ofset on links with a class name .scrollto
+   */
+  on('click', '.scrollto', function(e) {
+    if (select(this.hash)) {
+      e.preventDefault()
+
+      let navbar = select('#navbar')
+      if (navbar.classList.contains('navbar-mobile')) {
+        navbar.classList.remove('navbar-mobile')
+        let navbarToggle = select('.mobile-nav-toggle')
+        navbarToggle.classList.toggle('bi-list')
+        navbarToggle.classList.toggle('bi-x')
+      }
+      scrollto(this.hash)
+    }
+  }, true)
+
+  /**
+   * Scroll with ofset on page load with hash links in the url
+   */
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      if (select(window.location.hash)) {
+        scrollto(window.location.hash)
+      }
     }
   });
-  
-  $.fn.menumaker = function(options) {
-    var mobile_menu = $(this), settings = $.extend({
-      format: "dropdown",
-      sticky: false
-    }, options);
-    
-    return this.each(function() {
-      mobile_menu.find('li ul').parent().addClass('has-sub');
-      var multiTg = function() {
-        mobile_menu.find(".has-sub").prepend('<span class="submenu-button"><em></em></span>');
-        mobile_menu.find(".hash").parent().addClass('hash-has-sub');
-        mobile_menu.find('.submenu-button').on('click', function() {
-          $(this).toggleClass('submenu-opened');
-          if ($(this).siblings('ul').hasClass('open-sub')) {
-            $(this).siblings('ul').removeClass('open-sub').hide('fadeIn');
-            $(this).siblings('ul').hide('fadeIn');                                     
-          }
-          else {
-            $(this).siblings('ul').addClass('open-sub').hide('fadeIn');
-            $(this).siblings('ul').slideToggle().show('fadeIn');
-          }
+
+  /**
+   * Preloader
+   */
+  let preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
+    });
+  }
+
+  /**
+   * Initiate  glightbox 
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+
+  /**
+   * Skills animation
+   */
+  let skilsContent = select('.skills-content');
+  if (skilsContent) {
+    new Waypoint({
+      element: skilsContent,
+      offset: '80%',
+      handler: function(direction) {
+        let progress = select('.progress .progress-bar', true);
+        progress.forEach((el) => {
+          el.style.width = el.getAttribute('aria-valuenow') + '%'
         });
-      };
-      
-      if (settings.format === 'multitoggle') multiTg();
-      else mobile_menu.addClass('dropdown');
-      if (settings.sticky === true) mobile_menu.css('position', 'fixed');
-      var resizeFix = function() {
-        if ($( window ).width() > 991) {
-          mobile_menu.find('ul').show('fadeIn');
-          mobile_menu.find('ul.sub-menu').hide('fadeIn');
-        }          
-      };
-      resizeFix();
-      return $(window).on('resize', resizeFix);
-    });
-  };
-  
-  $(document).ready(function(){
-    $("#mobile-navbar-menu").menumaker({
-      format: "multitoggle"
-    });
-  });
-  
-  /*--------------------------------
-  kyc process page js
-  --------------------------------*/
-  $(".kyc_country_dropbox").on('click', function(){
-    $(".kyc_country_drop_list").toggle();
-  });
-  
-  $('.kyc_radio_btn .container').on('click', function() {
-    $('.kyc_radio_btn').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  
-  
-  $('.kyc_radio_btn .container').on('click', function() {
-    $('.kyc_radio_btn').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.nid_btn .container').on('click', function() {
-    $('.passport_btn').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.nid_btn .container').on('click', function() {
-    $('.driving_licnse_btn').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  
-  $('.passport_btn .container').on('click', function() {
-    $('.nid_btn').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.passport_btn .container').on('click', function() {
-    $('.driving_licnse_btn').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  
-  $('.driving_licnse_btn .container').on('click', function() {
-    $('.nid_btn').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.driving_licnse_btn .container').on('click', function() {
-    $('.passport_btn').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  
-  /*--------------------------------
-  connect wallet page js
-  --------------------------------*/
-  var btnContainer = $("#ChooseNetworkBtns");
-  
-  // Get all buttons with class="btn" inside the container
-  var btns = $(".choose_net_button");
-  
-  // Loop through the buttons and add the active class to the current/clicked button
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
-  
-  /*-------------------------
-  Project details js
-  -------------------------*/
-  $('.project-summary-tab-btn1').on('click', function() {
-    $('.project-summary-tab-btn1').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn1').on('click', function() {
-    $('.project-summary-tab-btn2, .project-summary-tab-btn3, .project-summary-tab-btn4, .project-summary-tab-btn5, .project-summary-tab-btn6, .project-summary-tab-btn7').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.project-summary-tab-btn2').on('click', function() {
-    $('.project-summary-tab-btn2').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn2').on('click', function() {
-    $('.project-summary-tab-btn1, .project-summary-tab-btn3, .project-summary-tab-btn4, .project-summary-tab-btn5, .project-summary-tab-btn6, .project-summary-tab-btn7').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.project-summary-tab-btn3').on('click', function() {
-    $('.project-summary-tab-btn3').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn3').on('click', function() {
-    $('.project-summary-tab-btn1, .project-summary-tab-btn2, .project-summary-tab-btn4, .project-summary-tab-btn5, .project-summary-tab-btn6, .project-summary-tab-btn7').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.project-summary-tab-btn4').on('click', function() {
-    $('.project-summary-tab-btn4').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn4').on('click', function() {
-    $('.project-summary-tab-btn1, .project-summary-tab-btn2, .project-summary-tab-btn3, .project-summary-tab-btn5, .project-summary-tab-btn6, .project-summary-tab-btn7').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.project-summary-tab-btn5').on('click', function() {
-    $('.project-summary-tab-btn5').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn5').on('click', function() {
-    $('.project-summary-tab-btn1, .project-summary-tab-btn2, .project-summary-tab-btn3, .project-summary-tab-btn4, .project-summary-tab-btn6, .project-summary-tab-btn7').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.project-summary-tab-btn6').on('click', function() {
-    $('.project-summary-tab-btn6').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn6').on('click', function() {
-    $('.project-summary-tab-btn1, .project-summary-tab-btn2, .project-summary-tab-btn3, .project-summary-tab-btn4, .project-summary-tab-btn5, .project-summary-tab-btn7').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  $('.project-summary-tab-btn7').on('click', function() {
-    $('.project-summary-tab-btn7').each(function(a) {
-      $(this).addClass('active')
-    });
-  });
-  $('.project-summary-tab-btn7').on('click', function() {
-    $('.project-summary-tab-btn1, .project-summary-tab-btn2, .project-summary-tab-btn3, .project-summary-tab-btn4, .project-summary-tab-btn5, .project-summary-tab-btn6').each(function(a) {
-      $(this).removeClass('active')
-    });
-  });
-  
-  /*-------------------------
-  stacking card flip js
-  -------------------------*/
-  $('.flip_card_btn').on('click', function() {
-    $(this).parents('.staking_flip_card').addClass('active');
-  });
-  
-  $('.staking_flip_card_close_btn').on('click',function() {
-    $(this).parents('.staking_flip_card').removeClass('active');
-  });
-  
-  
-  /*---------------------------
-  governance page Progress line
-  ---------------------------*/
-  var progress = document.querySelectorAll('.progress-done');
-  
-  Array.from(progress).forEach(function(item){
-    item.style.width = item.getAttribute('data-percent') + '%';
-    item.style.opacity = 1;
-  });
-
-
-
-  // check if wallet is already connected
-
-  window.onload = () =>{
-    checkAccountIsConnected();
-  }
-
-  const checkAccountIsConnected = async () =>{
-    if(isMetaMaskInstalled()){
-      const activeAccounts = await isAccountConnected();
-      if( activeAccounts.length !== 0 ){
-        $('.connect-btn-wrapper').html(`
-          <button type="button" class="connect-btn readon white-btn hover-shape">
-              <img src="assets/images/icons/connect.png" alt="Icon"> 
-              <span class="btn-text">${activeAccounts[0].substr(0, 10)}</span>
-              <span class="hover-shape1"></span>
-              <span class="hover-shape2"></span>
-              <span class="hover-shape3"></span>
-          </button>
-        `);
       }
+    })
+  }
+
+  /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let portfolioContainer = select('.portfolio-container');
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item'
+      });
+
+      let portfolioFilters = select('#portfolio-flters li', true);
+
+      on('click', '#portfolio-flters li', function(e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        portfolioIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
     }
-  }
 
-  
-  //connect meta
-  $('.connect-meta').on('click', async function(){
-    if(isMetaMaskInstalled()){
-      const activeAccounts = await connectWallet();
-      if( activeAccounts.length !== 0 ){
-        $('#exampleModal').modal('hide');
-        $('body').removeClass('modal-open');
-        $('.modal-backdrop').remove();
-        $('.connect-btn-wrapper').html(`
-          <button type="button" class="connect-btn readon white-btn hover-shape">
-              <img src="assets/images/icons/connect.png" alt="Icon"> 
-              <span class="btn-text">${activeAccounts[0].substr(0, 10)}</span>
-              <span class="hover-shape1"></span>
-              <span class="hover-shape2"></span>
-              <span class="hover-shape3"></span>
-          </button>
-        `);
-      }
-    }else{
-      $('#exampleModal').modal('hide');
-      $('body').removeClass('modal-open');
-      $('.modal-backdrop').remove();
-      $('#download-metamask').modal('show');
+  });
+
+  /**
+   * Initiate portfolio lightbox 
+   */
+  const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
+  });
+
+  /**
+   * Portfolio details slider
+   */
+  new Swiper('.portfolio-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
     }
   });
-  
-})(jQuery);
+
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false
+    });
+  });
+
+})()
